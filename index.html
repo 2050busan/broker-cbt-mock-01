@@ -1,3 +1,8 @@
+<!-- ===================================================== -->
+<!-- 2027 제37회 공인중개사 실전 CBT PREMIUM -->
+<!-- index.html 전체 교체용 -->
+<!-- 반복생성 제거 / 개별 문제 구조 -->
+<!-- ===================================================== -->
 
 <!doctype html>
 <html lang="ko">
@@ -5,7 +10,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>2027년도 제37회 공인중개사 국가자격시험 실전 CBT 모의고사</title>
+<title>2027 제37회 공인중개사 실전 CBT PREMIUM</title>
 
 <style>
 
@@ -35,7 +40,7 @@ box-shadow:0 4px 20px rgba(0,0,0,.08);
 }
 
 .inner{
-max-width:1400px;
+max-width:1450px;
 margin:auto;
 padding:14px;
 }
@@ -51,7 +56,7 @@ flex-wrap:wrap;
 .title small{
 display:block;
 font-size:13px;
-font-weight:800;
+font-weight:900;
 color:#667085;
 }
 
@@ -68,7 +73,7 @@ padding:5px 12px;
 background:#eff6ff;
 border-radius:999px;
 font-size:12px;
-font-weight:900;
+font-weight:950;
 color:#2563eb;
 margin-left:8px;
 }
@@ -77,21 +82,19 @@ margin-left:8px;
 background:#111827;
 color:white;
 padding:12px 22px;
-border-radius:20px;
+border-radius:18px;
 text-align:center;
-box-shadow:0 8px 24px rgba(0,0,0,.18);
 }
 
 .timer small{
 display:block;
-color:#cbd5e1;
-font-weight:700;
 font-size:12px;
+color:#cbd5e1;
 }
 
 .timer b{
 font-size:28px;
-letter-spacing:1px;
+font-weight:950;
 }
 
 .hero{
@@ -102,10 +105,10 @@ padding:0 14px;
 
 .heroCard{
 background:white;
-border-radius:30px;
+border-radius:28px;
 padding:28px;
-box-shadow:0 16px 40px rgba(0,0,0,.08);
 border:1px solid #dbe3f1;
+box-shadow:0 16px 36px rgba(0,0,0,.08);
 }
 
 .heroCard h2{
@@ -113,14 +116,13 @@ margin:0;
 font-size:36px;
 font-weight:950;
 line-height:1.3;
-letter-spacing:-1px;
 }
 
 .heroCard p{
 margin-top:10px;
+font-size:15px;
+font-weight:700;
 color:#667085;
-font-size:16px;
-font-weight:600;
 }
 
 .grid{
@@ -133,7 +135,7 @@ margin-top:20px;
 .box{
 background:#f8fafc;
 border:1px solid #e5e7eb;
-border-radius:20px;
+border-radius:18px;
 padding:18px;
 text-align:center;
 }
@@ -148,13 +150,13 @@ color:#667085;
 .box b{
 display:block;
 margin-top:8px;
-font-size:28px;
+font-size:26px;
 font-weight:950;
 }
 
 .nickname{
 width:100%;
-margin-top:20px;
+margin-top:18px;
 padding:16px;
 font-size:18px;
 font-weight:800;
@@ -176,11 +178,6 @@ font-weight:950;
 border-radius:18px;
 padding:18px;
 font-size:18px;
-transition:.2s;
-}
-
-button:hover{
-transform:translateY(-2px);
 }
 
 .primary{
@@ -194,7 +191,7 @@ color:white;
 }
 
 .wrap{
-max-width:1400px;
+max-width:1450px;
 margin:auto;
 padding:14px;
 display:grid;
@@ -207,7 +204,6 @@ background:white;
 border-radius:28px;
 overflow:hidden;
 border:1px solid #dbe3f1;
-box-shadow:0 14px 36px rgba(0,0,0,.08);
 }
 
 .paperTop{
@@ -225,8 +221,8 @@ font-weight:950;
 .paperTop p{
 margin-top:6px;
 font-size:13px;
-color:#667085;
 font-weight:700;
+color:#667085;
 }
 
 .qcard{
@@ -243,7 +239,7 @@ margin-bottom:10px;
 
 .meta span{
 font-size:11px;
-font-weight:900;
+font-weight:950;
 padding:4px 8px;
 background:#eff6ff;
 color:#2563eb;
@@ -254,7 +250,6 @@ border-radius:999px;
 font-size:18px;
 font-weight:900;
 line-height:1.7;
-letter-spacing:-.3px;
 margin-bottom:14px;
 }
 
@@ -267,7 +262,6 @@ border-radius:18px;
 border:1px solid #d0d5dd;
 margin:10px 0;
 cursor:pointer;
-transition:.2s;
 font-size:16px;
 line-height:1.6;
 background:white;
@@ -329,13 +323,6 @@ background:white;
 border-radius:24px;
 padding:18px;
 border:1px solid #dbe3f1;
-box-shadow:0 14px 36px rgba(0,0,0,.08);
-}
-
-.panel h3{
-margin:0 0 12px;
-font-size:18px;
-font-weight:950;
 }
 
 .omr{
@@ -350,25 +337,7 @@ font-size:13px;
 border-radius:12px;
 background:white;
 border:1px solid #d0d5dd;
-font-weight:900;
-}
-
-.done{
-background:#eff6ff !important;
-border-color:#93c5fd !important;
-color:#2563eb;
-}
-
-.good{
-background:#dcfce7 !important;
-border-color:#16a34a !important;
-color:#166534 !important;
-}
-
-.bad{
-background:#fee2e2 !important;
-border-color:#dc2626 !important;
-color:#991b1b !important;
+font-weight:950;
 }
 
 .result{
@@ -404,10 +373,6 @@ margin-top:16px;
 grid-template-columns:repeat(10,1fr);
 }
 
-.title h1{
-font-size:22px;
-}
-
 .heroCard h2{
 font-size:28px;
 }
@@ -425,6 +390,7 @@ padding:14px;
 <body>
 
 <header class="header">
+
 <div class="inner">
 
 <div class="top">
@@ -436,7 +402,7 @@ padding:14px;
 </small>
 
 <h1>
-실전 CBT 모의고사
+실전 CBT PREMIUM
 <span class="badge hidden" id="nicknameBadge"></span>
 </h1>
 
@@ -450,6 +416,7 @@ padding:14px;
 </div>
 
 </div>
+
 </header>
 
 <section class="hero" id="landing">
@@ -457,12 +424,12 @@ padding:14px;
 <div class="heroCard">
 
 <h2>
-2027년도 제37회 공인중개사 국가자격시험<br>
-실전 CBT 모의고사
+2027 제37회 공인중개사<br>
+실전 CBT PREMIUM
 </h2>
 
 <p>
-실제 시험 스타일 기반 · 실전 압박형 CBT
+28~36회 기출 패턴 기반 · 실전 압박형 모의고사
 </p>
 
 <div class="grid">
@@ -523,13 +490,9 @@ onclick="startExam('2차')"
 
 <div class="paperTop">
 
-<h2 id="examTitle">
-실전 CBT
-</h2>
+<h2 id="examTitle"></h2>
 
-<p id="examDesc">
-실제 시험 스타일 기반
-</p>
+<p id="examDesc"></p>
 
 </div>
 
@@ -557,65 +520,118 @@ onclick="startExam('2차')"
 
 <script>
 
-let questions = [];
+/* ========================================= */
+/* 실제 개별 문제 구조 */
+/* 반복생성 제거 */
+/* ========================================= */
 
-function createQuestion(subject, idx){
+const questions = [
 
-return {
-exam:
-subject==="부동산학개론" ||
-subject==="민법 및 민사특별법"
-?
-"1차"
-:
-"2차",
+{
+exam:"1차",
+subject:"민법 및 민사특별법",
 
-subject,
-
-q:
-idx +
-". 다음 설명 중 가장 옳지 않은 것은?",
+q:"甲은 자신의 토지를 乙에게 매도하기로 계약하고 계약금까지 수령하였다. 이후 토지 가격이 급등하자 甲은 계약금을 반환하면서 계약을 해제하려 하였으나, 이미 乙은 중도금 일부를 지급하고 건축설계까지 마친 상태였다. 이에 관한 설명으로 가장 옳은 것은?",
 
 choices:[
-"관련 법령 및 판례에 비추어 볼 때 타당한 설명이다.",
-"실무상 일반적으로 인정되는 내용이다.",
-"최근 기출 판례의 입장과 동일한 설명이다.",
-"관련 규정의 예외사유에 해당할 수 있다.",
-"법령 및 판례상 명백히 타당하다고 보기 어렵다."
+"乙이 건축설계를 마친 이상 이는 이행의 착수에 해당하므로 甲은 계약금을 반환하더라도 해제할 수 없다.",
+"중도금 일부 지급은 이행의 착수로 볼 수 없으므로 甲은 언제든 해제 가능하다.",
+"계약금 해제는 상대방 동의가 있어야만 가능하다.",
+"계약금은 손해배상 예정액으로 추정되므로 해제권과는 무관하다.",
+"甲은 시가상승을 이유로 사정변경 원칙에 따라 계약을 해제할 수 있다."
 ],
 
-answer:5,
+answer:1,
 
-analysis:
-"실전형 함정 선지 구조입니다. 실제 시험에서는 예외규정·판례 문구·숫자 함정 중심으로 출제됩니다."
+analysis:"계약금 해제는 이행의 착수 전까지만 가능하다. 최근 기출은 이행착수 판단을 사례형으로 길게 출제하는 경향이 강하다."
 
-};
+},
+
+{
+exam:"1차",
+subject:"민법 및 민사특별법",
+
+q:"통정허위표시에 관한 설명으로 가장 옳은 것은?",
+
+choices:[
+"통정허위표시는 취소 전까지 유효하다.",
+"선의의 제3자에게는 무효를 대항하지 못한다.",
+"악의의 제3자도 보호된다.",
+"통정허위표시는 언제나 상대방의 동의 없이 철회 가능하다.",
+"허위표시는 당사자 일방의 의사만으로 성립한다."
+],
+
+answer:2,
+
+analysis:"민법 사례형 핵심 파트. 최근 회차에서 선의·악의·제3자 범위를 반복 출제."
+
+},
+
+{
+exam:"2차",
+subject:"공법",
+
+q:"국토의 계획 및 이용에 관한 법령상 용도지역에 관한 설명으로 가장 옳지 않은 것은?",
+
+choices:[
+"용도지역은 토지의 이용 및 건축물의 용도 등을 제한하기 위하여 지정할 수 있다.",
+"용도지역은 도시·군관리계획으로 결정할 수 있다.",
+"하나의 토지에는 원칙적으로 둘 이상의 용도지역을 중복 지정할 수 있다.",
+"용도지역은 토지이용의 효율화를 위한 제도이다.",
+"용도지역은 공공복리 증진과 관련된다."
+],
+
+answer:3,
+
+analysis:"용도지역·용도지구·용도구역 혼합 함정은 최근 공법 핵심 출제 패턴."
+
+},
+
+{
+exam:"2차",
+subject:"중개사법",
+
+q:"공인중개사법령상 개업공인중개사의 금지행위에 관한 설명으로 가장 옳은 것은?",
+
+choices:[
+"거래완료된 매물을 계속 광고하는 것은 허용된다.",
+"중개보조원은 단독으로 확인·설명을 할 수 있다.",
+"법정 보수 한도를 초과하여 자유롭게 약정할 수 있다.",
+"개업공인중개사는 법령상 금지행위를 하여서는 안 된다.",
+"중개의뢰인과 직접 거래하는 행위는 원칙적으로 허용된다."
+],
+
+answer:4,
+
+analysis:"중개사법은 광고규정·중개보조원·중개보수 함정을 결합해서 출제하는 경향이 강함."
+
+},
+
+{
+exam:"2차",
+subject:"세법",
+
+q:"1세대 1주택 비과세에 관한 설명으로 가장 옳은 것은?",
+
+choices:[
+"주택 수·보유기간·거주기간 등이 문제될 수 있다.",
+"1주택이면 언제나 비과세된다.",
+"조정대상지역 여부는 고려되지 않는다.",
+"미등기 자산도 동일하게 적용된다.",
+"양도가액은 전혀 고려되지 않는다."
+],
+
+answer:1,
+
+analysis:"최근 세법은 조정대상지역·장기보유특별공제·보유기간 함정을 반복 출제."
 
 }
 
-for(let i=1;i<=40;i++){
-questions.push(createQuestion("부동산학개론",i));
-}
+];
 
-for(let i=1;i<=40;i++){
-questions.push(createQuestion("민법 및 민사특별법",i));
-}
-
-for(let i=1;i<=40;i++){
-questions.push(createQuestion("중개사법",i));
-}
-
-for(let i=1;i<=40;i++){
-questions.push(createQuestion("공법",i));
-}
-
-for(let i=1;i<=24;i++){
-questions.push(createQuestion("공시법",i));
-}
-
-for(let i=1;i<=16;i++){
-questions.push(createQuestion("세법",i));
-}
+/* ========================================= */
+/* 이하 CBT 엔진 */
+/* ========================================= */
 
 const questionsDiv =
 document.getElementById("questions");
@@ -625,7 +641,7 @@ questions.forEach((q,i)=>{
 questionsDiv.innerHTML += `
 
 <div
-class="qcard"
+class="qcard hidden"
 id="q${i+1}"
 data-exam="${q.exam}"
 >
@@ -676,13 +692,10 @@ ${q.analysis}
 
 });
 
-let currentExam = "";
 let totalSeconds = 0;
 let timer;
 
 function startExam(type){
-
-currentExam = type;
 
 document
 .getElementById("landing")
@@ -712,31 +725,31 @@ badge.classList.remove("hidden");
 
 if(type==="1차"){
 
-totalSeconds = 100 * 60;
+totalSeconds = 100*60;
 
 document
 .getElementById("examTitle")
 .innerHTML =
-"1차 실전 CBT 모의고사";
+"1차 실전 CBT";
 
 document
 .getElementById("examDesc")
 .innerHTML =
-"부동산학개론 + 민법 및 민사특별법";
+"민법 및 민사특별법";
 
 }else{
 
-totalSeconds = 150 * 60;
+totalSeconds = 150*60;
 
 document
 .getElementById("examTitle")
 .innerHTML =
-"2차 실전 CBT 모의고사";
+"2차 실전 CBT";
 
 document
 .getElementById("examDesc")
 .innerHTML =
-"중개사법 + 공법 + 공시법 + 세법";
+"공법 · 중개사법 · 세법";
 
 }
 
@@ -744,9 +757,7 @@ document
 .querySelectorAll(".qcard")
 .forEach(card=>{
 
-if(
-card.dataset.exam===type
-){
+if(card.dataset.exam===type){
 
 card.classList.remove("hidden");
 
@@ -830,9 +841,14 @@ let correct = 0;
 
 document
 .querySelectorAll(".qcard:not(.hidden)")
-.forEach((card,idx)=>{
+.forEach(card=>{
 
 total++;
+
+const idx =
+Number(
+card.id.replace("q","")
+)-1;
 
 const q =
 questions[idx];
@@ -880,22 +896,7 @@ document
 `
 <b>채점 결과</b><br>
 총점 : ${score}점<br>
-정답 : ${correct}/${total}<br><br>
-${
-score>=85
-?
-"상위 합격권"
-:
-score>=70
-?
-"합격권"
-:
-score>=60
-?
-"불안한 합격권"
-:
-"위험권"
-}
+정답 : ${correct}/${total}
 `;
 
 }
